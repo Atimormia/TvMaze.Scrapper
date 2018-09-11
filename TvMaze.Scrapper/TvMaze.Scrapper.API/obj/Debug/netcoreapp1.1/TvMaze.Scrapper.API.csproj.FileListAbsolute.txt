@@ -1,0 +1,11 @@
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.API.deps.json
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.API.runtimeconfig.json
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.API.runtimeconfig.dev.json
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.API.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.API.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.API.csprojResolveAssemblyReference.cache
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.API.AssemblyInfo.cs
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.API.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.API.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.API.xml
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.API\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.API.xml

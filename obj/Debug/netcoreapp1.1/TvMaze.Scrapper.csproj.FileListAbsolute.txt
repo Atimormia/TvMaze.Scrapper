@@ -1,0 +1,9 @@
+D:\Learn\TvMaze.Scrapper\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.deps.json
+D:\Learn\TvMaze.Scrapper\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.runtimeconfig.json
+D:\Learn\TvMaze.Scrapper\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.runtimeconfig.dev.json
+D:\Learn\TvMaze.Scrapper\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.dll
+D:\Learn\TvMaze.Scrapper\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.pdb
+D:\Learn\TvMaze.Scrapper\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.csproj.CoreCompileInputs.cache
+D:\Learn\TvMaze.Scrapper\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.AssemblyInfo.cs
+D:\Learn\TvMaze.Scrapper\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.dll
+D:\Learn\TvMaze.Scrapper\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.pdb

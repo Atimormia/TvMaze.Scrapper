@@ -2,10 +2,11 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using AutoMapper;
 
 namespace TvMaze.Scrapper.Data
 {
-    public static class Configurer
+    public static class DataConfigurer
     {
         public static void Configure(IServiceCollection services, IConfigurationRoot config)
         {
@@ -15,6 +16,8 @@ namespace TvMaze.Scrapper.Data
             else
                 services.AddDbContext<ScrapperDbContext>(options =>
                     options.UseSqlite("Data Source=Scrapper.db"));
+
+            services.AddAutoMapper();
         }
     }
 }

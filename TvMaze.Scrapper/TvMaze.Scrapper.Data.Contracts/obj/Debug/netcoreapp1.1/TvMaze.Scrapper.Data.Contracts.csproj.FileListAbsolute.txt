@@ -1,0 +1,9 @@
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.deps.json
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.csprojResolveAssemblyReference.cache
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.AssemblyInfo.cs
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\bin\Debug\netcoreapp1.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\bin\Debug\netcoreapp1.1\Microsoft.Extensions.Configuration.Abstractions.xml

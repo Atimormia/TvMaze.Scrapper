@@ -28,7 +28,7 @@ namespace TvMaze.Scrapper.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            Configurer.Configure(services, Configuration);
+            DataConfigurer.Configure(services, Configuration);
             // Add framework services.
             services.AddMvc();
             

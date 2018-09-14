@@ -19,3 +19,5 @@ D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data\bin\Debug\netcorea
 D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.pdb
 D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.dll
 D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.pdb

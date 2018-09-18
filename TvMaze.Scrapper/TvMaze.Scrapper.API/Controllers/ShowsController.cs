@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using TvMaze.Scrapper.Services.Contracts.Models;
 using TvMaze.Scrapper.Services.Contracts.Services;
+using System.Threading.Tasks;
 
 namespace TvMaze.Scrapper.API.Controllers
 {
@@ -21,9 +22,9 @@ namespace TvMaze.Scrapper.API.Controllers
         /// <param name="page">Page number</param>
         /// <returns>A list of shows with information</returns>
         [HttpGet]
-        public IActionResult Get([FromQuery] int take, int page)
+        public async Task<IActionResult> GetAsync([FromQuery] int take, int page)
         {
-            var items = _showInfoService.GetAll(take, page);
+            var items = await _showInfoService.GetAll(take, page);
 
             if (items == null || !items.Any())
             {
@@ -35,22 +36,22 @@ namespace TvMaze.Scrapper.API.Controllers
 
         //for testing
         [HttpPost]
-        public IActionResult Add([FromBody] ShowModel show)
+        public async Task<IActionResult> AddAsync([FromBody] ShowModel show)
         {
             if (show == null)
             {
                 return BadRequest();
             }
 
-            _showInfoService.AddOrUpdate(show);
+            await _showInfoService.AddOrUpdate(show);
 
             return CreatedAtRoute("GetShow", new { id = show.Id }, show);
         }
 
         [HttpGet("{id}", Name = "GetShow")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetByIdAsync(int id)
         {
-            var item = _showInfoService.GetById(id);
+            var item = await _showInfoService.GetById(id);
             if (item == null)
             {
                 return NotFound();

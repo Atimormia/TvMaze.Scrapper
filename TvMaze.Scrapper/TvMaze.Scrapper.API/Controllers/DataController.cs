@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using Microsoft.AspNetCore.Mvc;
 using TvMaze.Scrapper.Services.Contracts.Services;
+using System.Threading.Tasks;
 
 namespace TvMaze.Scrapper.API.Controllers
 {
@@ -20,11 +21,11 @@ namespace TvMaze.Scrapper.API.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("update")]
-        public IActionResult Update()
+        public async Task<IActionResult> UpdateAsync()
         {
             try
             {
-                _showInfoUpdater.Update();
+                await _showInfoUpdater.Update();
             }
             catch (Exception e)
             {

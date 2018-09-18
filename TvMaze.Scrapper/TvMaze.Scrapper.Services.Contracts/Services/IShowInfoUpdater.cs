@@ -1,7 +1,9 @@
-﻿namespace TvMaze.Scrapper.Services.Contracts.Services
+﻿using System.Threading.Tasks;
+
+namespace TvMaze.Scrapper.Services.Contracts.Services
 {
     public interface IShowInfoUpdater
     {
-        void Update();
+        Task Update();
     }
 }

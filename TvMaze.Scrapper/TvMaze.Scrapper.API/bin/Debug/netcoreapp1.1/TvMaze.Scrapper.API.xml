@@ -4,13 +4,13 @@
         <name>TvMaze.Scrapper.API</name>
     </assembly>
     <members>
-        <member name="M:TvMaze.Scrapper.API.Controllers.DataController.Update">
+        <member name="M:TvMaze.Scrapper.API.Controllers.DataController.UpdateAsync">
             <summary>
             Initiates TvMaze data retrieving
             </summary>
             <returns></returns>
         </member>
-        <member name="M:TvMaze.Scrapper.API.Controllers.ShowsController.Get(System.Int32,System.Int32)">
+        <member name="M:TvMaze.Scrapper.API.Controllers.ShowsController.GetAsync(System.Int32,System.Int32)">
             <summary>
             Scrapes the TVMaze API for show and cast information
             </summary>

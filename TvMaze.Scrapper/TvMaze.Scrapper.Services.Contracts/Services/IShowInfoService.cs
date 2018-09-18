@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using TvMaze.Scrapper.Services.Contracts.Models;
 
 namespace TvMaze.Scrapper.Services.Contracts.Services
@@ -6,11 +7,11 @@ namespace TvMaze.Scrapper.Services.Contracts.Services
     public interface IShowInfoService
     {
         //for testing
-        void AddOrUpdate(ShowModel show);
-        void AddOrUpdate(IEnumerable<ShowModel> shows);
+        Task AddOrUpdate(ShowModel show);
+        Task AddOrUpdate(IEnumerable<ShowModel> shows);
 
         //for prod
-        IEnumerable<ShowModel> GetAll(int? take, int? page);
-        ShowModel GetById(int id);
+        Task<IEnumerable<ShowModel>> GetAll(int take, int page);
+        Task<ShowModel> GetById(int id);
     }
 }

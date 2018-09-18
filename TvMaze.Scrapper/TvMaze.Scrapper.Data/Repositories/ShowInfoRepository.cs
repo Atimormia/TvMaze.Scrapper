@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using TvMaze.Scrapper.Data.Contracts.DTOs;
@@ -27,33 +28,33 @@ namespace TvMaze.Scrapper.Data.Repositories
             }
         }
 
-        public void AddOrUpdate(ShowDto show)
+        public async Task AddOrUpdate(ShowDto show)
         {
-            if (show == null) return;
+            if (show == null) await Task.FromResult(0);
 
             _context.Shows.Add(_mapper.Map<Show>(show));
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public void AddOrUpdate(IEnumerable<ShowDto> shows)
+        public async Task AddOrUpdate(IEnumerable<ShowDto> shows)
         {
-            if (shows == null || !shows.Any()) return;
+            if (shows == null || !shows.Any()) await Task.FromResult(0);
 
             foreach (var show in shows)
             {
-                AddOrUpdate(show);
+                await AddOrUpdate(show);
             }
-            _context.SaveChanges();
         }
 
-        public IEnumerable<ShowDto> GetAll()
+        public async Task<IEnumerable<ShowDto>> GetAll()
         {
-            return _context.Shows.Include(x => x.Casts).ToList().Select(x => _mapper.Map<ShowDto>(x));
+            return await _context.Shows.Include(x => x.Casts).Select(x => _mapper.Map<ShowDto>(x)).ToArrayAsync();
         }
 
-        public ShowDto GetById(int id)
+        public async Task<ShowDto> GetById(int id)
         {
-            return _mapper.Map<ShowDto>(_context.Shows.Include(x => x.Casts).ToList().Find(x => x.Id == id));
+            return await _context.Shows.Include(x => x.Casts).Select(x => _mapper.Map<ShowDto>(x))
+                .FirstOrDefaultAsync(x => x.Id == id);
         }
     }
 }

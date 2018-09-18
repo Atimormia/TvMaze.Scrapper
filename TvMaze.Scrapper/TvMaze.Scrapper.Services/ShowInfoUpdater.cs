@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Threading.Tasks;
 using AutoMapper;
 using TvMaze.Scrapper.Data.Contracts.DTOs;
 using TvMaze.Scrapper.Data.Contracts.Repositories;
@@ -20,9 +21,10 @@ namespace TvMaze.Scrapper.Services
             _mapper = mapper;
         }
 
-        public void Update()
+        public async Task Update()
         {
-            _showInfoRepository.AddOrUpdate(_tvMazeClient.GetAll().Select(x => _mapper.Map<ShowDto>(x)));
+            var data = await _tvMazeClient.GetAll();
+            await _showInfoRepository.AddOrUpdate(data.Select(x => _mapper.Map<ShowDto>(x)));
         }
     }
 }

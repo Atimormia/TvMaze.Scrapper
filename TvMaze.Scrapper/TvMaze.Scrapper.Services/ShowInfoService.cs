@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AutoMapper;
 using TvMaze.Scrapper.Data.Contracts.DTOs;
 using TvMaze.Scrapper.Data.Contracts.Repositories;
@@ -19,29 +20,27 @@ namespace TvMaze.Scrapper.Services
             _mapper = mapper;
         }
 
-        public void AddOrUpdate(ShowModel show)
+        public async Task AddOrUpdate(ShowModel show)
         {
-            _showInfoRepository.AddOrUpdate(_mapper.Map<ShowDto>(show));
+            await _showInfoRepository.AddOrUpdate(_mapper.Map<ShowDto>(show));
         }
 
-        public void AddOrUpdate(IEnumerable<ShowModel> shows)
+        public async Task AddOrUpdate(IEnumerable<ShowModel> shows)
         {
-            _showInfoRepository.AddOrUpdate(shows.Select(x => _mapper.Map<ShowDto>(x)));
+            await _showInfoRepository.AddOrUpdate(shows.Select(x => _mapper.Map<ShowDto>(x)));
         }
 
-        public IEnumerable<ShowModel> GetAll(int? take, int? page)
+        public async Task<IEnumerable<ShowModel>> GetAll(int take = 0, int page = 0)
         {
-            var allShows = _showInfoRepository.GetAll().Select(x => _mapper.Map<ShowModel>(x));
-            if (take.HasValue && page.HasValue)
-            {
-                return allShows.Skip((page.Value - 1) * take.Value).Take(take.Value);
-            }
-            return allShows;
+            var allShows = await _showInfoRepository.GetAll();
+            var allShowModels = allShows.Select(x => _mapper.Map<ShowModel>(x));
+            return await Task.FromResult(allShowModels.Skip((page - 1) * take).Take(take));
         }
 
-        public ShowModel GetById(int id)
+        public async Task<ShowModel> GetById(int id)
         {
-            return _mapper.Map<ShowModel>(_showInfoRepository.GetById(id));
+            var show = await _showInfoRepository.GetById(id);
+            return await Task.FromResult(_mapper.Map<ShowModel>(show));
         }
         
     }

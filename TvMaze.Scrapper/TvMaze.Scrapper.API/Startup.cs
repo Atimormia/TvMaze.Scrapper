@@ -7,6 +7,7 @@ using Swashbuckle.AspNetCore.Swagger;
 using System;
 using System.IO;
 using System.Reflection;
+using TvMaze.Client;
 using TvMaze.Scrapper.Data;
 using TvMaze.Scrapper.Services;
 
@@ -29,6 +30,7 @@ namespace TvMaze.Scrapper.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            ClientConfigurer.Configure(services);
             ServicesConfigurer.Configure(services);
             DataConfigurer.Configure(services, Configuration);
             // Add framework services.

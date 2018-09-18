@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TvMaze.Client.Contracts\TvMaze.Client.Contracts.csproj" />
     <ProjectReference Include="..\TvMaze.Scrapper.Data.Contracts\TvMaze.Scrapper.Data.Contracts.csproj" />
     <ProjectReference Include="..\TvMaze.Scrapper.Services.Contracts\TvMaze.Scrapper.Services.Contracts.csproj" />
   </ItemGroup>

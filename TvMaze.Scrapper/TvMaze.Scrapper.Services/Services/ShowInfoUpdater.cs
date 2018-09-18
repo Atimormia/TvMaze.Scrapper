@@ -1,12 +1,12 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using TvMaze.Client.Contracts;
 using TvMaze.Scrapper.Data.Contracts.DTOs;
 using TvMaze.Scrapper.Data.Contracts.Repositories;
-using TvMaze.Scrapper.Services.Contracts;
 using TvMaze.Scrapper.Services.Contracts.Services;
 
-namespace TvMaze.Scrapper.Services
+namespace TvMaze.Scrapper.Services.Services
 {
     public class ShowInfoUpdater : IShowInfoUpdater
     {

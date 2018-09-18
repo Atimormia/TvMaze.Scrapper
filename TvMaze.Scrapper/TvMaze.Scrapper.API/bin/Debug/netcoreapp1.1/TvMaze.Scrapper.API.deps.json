@@ -35,6 +35,7 @@
           "Microsoft.VisualStudio.Web.BrowserLink": "1.1.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "1.1.1",
           "Swashbuckle.AspNetCore": "3.0.0",
+          "TvMaze.Client": "1.0.0",
           "TvMaze.Scrapper.Data": "1.0.0",
           "TvMaze.Scrapper.Services": "1.0.0",
           "TvMaze.Scrapper.Services.Contracts": "1.0.0"
@@ -1991,6 +1992,30 @@
           "lib/netstandard1.0/System.ValueTuple.dll": {}
         }
       },
+      "tvmaze.client/1.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.2",
+          "TvMaze.Client.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "TvMaze.Client.dll": {}
+        },
+        "compile": {
+          "TvMaze.Client.dll": {}
+        }
+      },
+      "tvmaze.client.contracts/1.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.2",
+          "TvMaze.Scrapper.Services.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "TvMaze.Client.Contracts.dll": {}
+        },
+        "compile": {
+          "TvMaze.Client.Contracts.dll": {}
+        }
+      },
       "tvmaze.scrapper.data/1.0.0": {
         "dependencies": {
           "AutoMapper": "7.0.1",
@@ -2027,6 +2052,7 @@
           "AutoMapper": "7.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.1",
           "Microsoft.NETCore.App": "1.1.2",
+          "TvMaze.Client.Contracts": "1.0.0",
           "TvMaze.Scrapper.Data.Contracts": "1.0.0",
           "TvMaze.Scrapper.Services.Contracts": "1.0.0"
         },
@@ -4573,6 +4599,16 @@
       "sha512": "sha512-xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "tvmaze.client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "tvmaze.client.contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "tvmaze.scrapper.data/1.0.0": {
       "type": "project",

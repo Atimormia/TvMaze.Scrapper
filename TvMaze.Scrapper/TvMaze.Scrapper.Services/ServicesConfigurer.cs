@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using TvMaze.Scrapper.Services.Contracts.Services;
+using TvMaze.Scrapper.Services.Services;
 
 namespace TvMaze.Scrapper.Services
 {
@@ -8,7 +9,6 @@ namespace TvMaze.Scrapper.Services
     {
         public static void Configure(IServiceCollection services)
         {
-            //services.AddAutoMapper();
             services.AddScoped<IShowInfoService, ShowInfoService>();
             services.AddScoped<IShowInfoUpdater, ShowInfoUpdater>();
 

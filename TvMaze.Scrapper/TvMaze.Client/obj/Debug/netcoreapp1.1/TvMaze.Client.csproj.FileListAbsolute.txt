@@ -1,0 +1,17 @@
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\TvMaze.Client.deps.json
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\TvMaze.Client.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\TvMaze.Client.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\AutoMapper.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\Newtonsoft.Json.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\TvMaze.Client.Contracts.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.Contracts.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\TvMaze.Client.Contracts.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.Contracts.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\AutoMapper.xml
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\bin\Debug\netcoreapp1.1\Newtonsoft.Json.xml
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\obj\Debug\netcoreapp1.1\TvMaze.Client.csprojResolveAssemblyReference.cache
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\obj\Debug\netcoreapp1.1\TvMaze.Client.AssemblyInfo.cs
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\obj\Debug\netcoreapp1.1\TvMaze.Client.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Client\obj\Debug\netcoreapp1.1\TvMaze.Client.pdb

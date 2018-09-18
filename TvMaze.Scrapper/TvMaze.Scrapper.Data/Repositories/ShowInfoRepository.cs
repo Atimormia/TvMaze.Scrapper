@@ -20,25 +20,26 @@ namespace TvMaze.Scrapper.Data.Repositories
         {
             _context = context;
             _mapper = mapper;
-
-            if (!_context.Shows.Any())
-            {
-                _context.Shows.Add(new Show() { Id = 1, Name = "Item1" });
-                _context.SaveChanges();
-            }
         }
 
         public async Task AddOrUpdate(ShowDto show)
         {
-            if (show == null) await Task.FromResult(0);
+            if (show == null) return;
 
-            _context.Shows.Add(_mapper.Map<Show>(show));
+            if (_context.Shows.Find(show.Id) == null)
+            {
+                _context.Shows.Add(_mapper.Map<Show>(show));
+            }
+            else
+            {
+                _context.Shows.Update(_mapper.Map<Show>(show));
+            }
             await _context.SaveChangesAsync();
         }
 
         public async Task AddOrUpdate(IEnumerable<ShowDto> shows)
         {
-            if (shows == null || !shows.Any()) await Task.FromResult(0);
+            if (shows == null || !shows.Any()) return;
 
             foreach (var show in shows)
             {

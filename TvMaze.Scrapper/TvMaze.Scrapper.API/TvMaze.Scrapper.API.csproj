@@ -27,6 +27,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TvMaze.Client\TvMaze.Client.csproj" />
     <ProjectReference Include="..\TvMaze.Scrapper.Data\TvMaze.Scrapper.Data.csproj" />
     <ProjectReference Include="..\TvMaze.Scrapper.Services.Contracts\TvMaze.Scrapper.Services.Contracts.csproj" />
     <ProjectReference Include="..\TvMaze.Scrapper.Services\TvMaze.Scrapper.Services.csproj" />

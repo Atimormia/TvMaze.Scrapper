@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "6.1.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.1",
+          "TvMaze.Client.Contracts": "1.0.0",
           "TvMaze.Scrapper.Data.Contracts": "1.0.0",
           "TvMaze.Scrapper.Services.Contracts": "1.0.0"
         },
@@ -94,6 +95,14 @@
       "system.runtime.serialization.primitives/4.1.1": {
         "runtime": {
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "tvmaze.client.contracts/1.0.0": {
+        "dependencies": {
+          "TvMaze.Scrapper.Services.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "TvMaze.Client.Contracts.dll": {}
         }
       },
       "tvmaze.scrapper.data.contracts/1.0.0": {
@@ -190,6 +199,11 @@
       "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
+    },
+    "tvmaze.client.contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "tvmaze.scrapper.data.contracts/1.0.0": {
       "type": "project",

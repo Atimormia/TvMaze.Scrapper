@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TvMaze.Scrapper.Services.Contracts\TvMaze.Scrapper.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

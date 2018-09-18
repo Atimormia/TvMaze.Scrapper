@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "tvmaze.client.contracts/1.0.0": {
+        "dependencies": {
+          "TvMaze.Scrapper.Services.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "TvMaze.Client.Contracts.dll": {}
+        }
+      },
+      "tvmaze.scrapper.services.contracts/1.0.0": {
+        "runtime": {
+          "TvMaze.Scrapper.Services.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tvmaze.client.contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "tvmaze.scrapper.services.contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

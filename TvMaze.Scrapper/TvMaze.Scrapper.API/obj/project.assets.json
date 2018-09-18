@@ -4331,6 +4331,22 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "TvMaze.Client/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.2",
+          "TvMaze.Client.Contracts": "1.0.0"
+        }
+      },
+      "TvMaze.Client.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v1.1",
+        "dependencies": {
+          "Microsoft.NETCore.App": "1.1.2",
+          "TvMaze.Scrapper.Services.Contracts": "1.0.0"
+        }
+      },
       "TvMaze.Scrapper.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
@@ -4361,6 +4377,7 @@
           "AutoMapper": "6.1.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.1",
           "Microsoft.NETCore.App": "1.1.2",
+          "TvMaze.Client.Contracts": "1.0.0",
           "TvMaze.Scrapper.Data.Contracts": "1.0.0",
           "TvMaze.Scrapper.Services.Contracts": "1.0.0"
         }
@@ -11177,6 +11194,16 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "TvMaze.Client/1.0.0": {
+      "type": "project",
+      "path": "../TvMaze.Client/TvMaze.Client.csproj",
+      "msbuildProject": "../TvMaze.Client/TvMaze.Client.csproj"
+    },
+    "TvMaze.Client.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../TvMaze.Client.Contracts/TvMaze.Client.Contracts.csproj",
+      "msbuildProject": "../TvMaze.Client.Contracts/TvMaze.Client.Contracts.csproj"
+    },
     "TvMaze.Scrapper.Data/1.0.0": {
       "type": "project",
       "path": "../TvMaze.Scrapper.Data/TvMaze.Scrapper.Data.csproj",
@@ -11212,6 +11239,7 @@
       "Microsoft.VisualStudio.Web.BrowserLink >= 1.1.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 1.1.1",
       "Swashbuckle.AspNetCore >= 3.0.0",
+      "TvMaze.Client >= 1.0.0",
       "TvMaze.Scrapper.Data >= 1.0.0",
       "TvMaze.Scrapper.Services >= 1.0.0",
       "TvMaze.Scrapper.Services.Contracts >= 1.0.0"
@@ -11236,6 +11264,9 @@
           "projectReferences": {
             "D:\\Learn\\TvMaze.Scrapper\\TvMaze.Scrapper\\TvMaze.Scrapper.Data\\TvMaze.Scrapper.Data.csproj": {
               "projectPath": "D:\\Learn\\TvMaze.Scrapper\\TvMaze.Scrapper\\TvMaze.Scrapper.Data\\TvMaze.Scrapper.Data.csproj"
+            },
+            "D:\\Learn\\TvMaze.Scrapper\\TvMaze.Scrapper\\TvMaze.Client\\TvMaze.Client.csproj": {
+              "projectPath": "D:\\Learn\\TvMaze.Scrapper\\TvMaze.Scrapper\\TvMaze.Client\\TvMaze.Client.csproj"
             },
             "D:\\Learn\\TvMaze.Scrapper\\TvMaze.Scrapper\\TvMaze.Scrapper.Services.Contracts\\TvMaze.Scrapper.Services.Contracts.csproj": {
               "projectPath": "D:\\Learn\\TvMaze.Scrapper\\TvMaze.Scrapper\\TvMaze.Scrapper.Services.Contracts\\TvMaze.Scrapper.Services.Contracts.csproj"

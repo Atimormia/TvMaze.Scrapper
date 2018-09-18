@@ -9,3 +9,5 @@ D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netc
 D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.pdb
 D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.dll
 D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Client.Contracts.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Client.Contracts.pdb

@@ -12,6 +12,5 @@ namespace TvMaze.Scrapper.Services.Contracts.Services
         //for prod
         IEnumerable<ShowModel> GetAll(int? take, int? page);
         ShowModel GetById(int id);
-        bool Update();
     }
 }

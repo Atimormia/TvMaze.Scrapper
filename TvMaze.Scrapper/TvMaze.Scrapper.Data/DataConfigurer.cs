@@ -3,6 +3,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using AutoMapper;
+using TvMaze.Scrapper.Data.Contracts.Repositories;
+using TvMaze.Scrapper.Data.Repositories;
 
 namespace TvMaze.Scrapper.Data
 {
@@ -18,6 +20,8 @@ namespace TvMaze.Scrapper.Data
                     options.UseSqlite("Data Source=Scrapper.db"));
 
             services.AddAutoMapper();
+
+            services.AddScoped<IShowInfoRepository, ShowInfoRepository>();
         }
     }
 }

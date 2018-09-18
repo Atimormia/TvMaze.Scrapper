@@ -8,11 +8,11 @@ namespace TvMaze.Scrapper.API.Controllers
     [Route("api/[controller]")]
     public class DataController : Controller
     {
-        private readonly IShowInfoService _showInfoService;
+        private readonly IShowInfoUpdater _showInfoUpdater;
 
-        public DataController(IShowInfoService showInfoService)
+        public DataController(IShowInfoUpdater showInfoUpdater)
         {
-            _showInfoService = showInfoService;
+            _showInfoUpdater = showInfoUpdater;
         }
 
         /// <summary>
@@ -22,13 +22,15 @@ namespace TvMaze.Scrapper.API.Controllers
         [HttpGet("update")]
         public IActionResult Update()
         {
-            var result = _showInfoService.Update();
-            if (result)
+            try
             {
-                return Ok("Scrapper Api - Database was updated");
+                _showInfoUpdater.Update();
             }
-
-            return StatusCode(500);
+            catch (Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
+            return Ok("Scrapper Api - Database was updated");
         }
     }
 }

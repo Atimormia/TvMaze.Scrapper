@@ -15,9 +15,10 @@ namespace TvMaze.Scrapper.Data.Repositories
         private readonly ScrapperDbContext _context;
         private readonly IMapper _mapper;
 
-        public ShowInfoRepository(ScrapperDbContext context)
+        public ShowInfoRepository(ScrapperDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
 
             if (!_context.Shows.Any())
             {
@@ -47,12 +48,12 @@ namespace TvMaze.Scrapper.Data.Repositories
 
         public IEnumerable<ShowDto> GetAll()
         {
-            return _context.Shows.Select(x => _mapper.Map<ShowDto>(x));
+            return _context.Shows.Include(x => x.Casts).ToList().Select(x => _mapper.Map<ShowDto>(x));
         }
 
         public ShowDto GetById(int id)
         {
-            return _mapper.Map<ShowDto>(_context.Shows.Find(id));
+            return _mapper.Map<ShowDto>(_context.Shows.Include(x => x.Casts).ToList().Find(x => x.Id == id));
         }
     }
 }

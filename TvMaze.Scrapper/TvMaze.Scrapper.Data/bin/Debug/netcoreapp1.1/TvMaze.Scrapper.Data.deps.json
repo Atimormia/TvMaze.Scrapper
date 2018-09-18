@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "311a6b981d91ce448346910fda2b4c1df188cc1c"
+    "signature": "7484996e50be072fc9c692d8a6b38235ab7f6239"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,6 +9,7 @@
       "tvmaze.scrapper.data/1.0.0": {
         "dependencies": {
           "AutoMapper": "7.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.1",
           "Microsoft.EntityFrameworkCore.Design": "1.1.2",
           "Microsoft.EntityFrameworkCore.InMemory": "1.1.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.2",
@@ -31,6 +32,16 @@
         },
         "runtime": {
           "lib/netstandard1.3/AutoMapper.dll": {}
+        }
+      },
+      "automapper.extensions.microsoft.dependencyinjection/2.0.1": {
+        "dependencies": {
+          "AutoMapper": "7.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+          "Microsoft.Extensions.DependencyModel": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.6/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "microsoft.aspnetcore.hosting.abstractions/1.1.1": {
@@ -90,6 +101,14 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.Data.Sqlite.dll": {}
+        }
+      },
+      "microsoft.dotnet.platformabstractions/1.1.1": {
+        "dependencies": {
+          "System.Reflection.TypeExtensions": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
       "microsoft.entityframeworkcore/1.1.2": {
@@ -211,6 +230,15 @@
           "lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
+      "microsoft.extensions.dependencymodel/1.1.1": {
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "1.1.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
+        }
+      },
       "microsoft.extensions.fileproviders.abstractions/1.1.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "1.1.0"
@@ -248,6 +276,15 @@
         },
         "runtime": {
           "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "newtonsoft.json/9.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
       "remotion.linq/2.1.1": {
@@ -429,6 +466,13 @@
       "path": "automapper/7.0.1",
       "hashPath": "automapper.7.0.1.nupkg.sha512"
     },
+    "automapper.extensions.microsoft.dependencyinjection/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YOMI/TncM6gBqXQm3SiHIhhe4TDcAHjnMFZJmqNBdR82BvTrx605KV8I/Pdmuz7GIgGJjnu8YJzyPrMMlZY4JQ==",
+      "path": "automapper.extensions.microsoft.dependencyinjection/2.0.1",
+      "hashPath": "automapper.extensions.microsoft.dependencyinjection.2.0.1.nupkg.sha512"
+    },
     "microsoft.aspnetcore.hosting.abstractions/1.1.1": {
       "type": "package",
       "serviceable": true,
@@ -470,6 +514,13 @@
       "sha512": "sha512-Fo0JFTKjMhwUaKi6zB/EWH3XI0Rh0mGIdAh9TVhcXoXqpfdET3A5wyrrUn4GttWXU6R1nAMPuP+FONdPRKo5bg==",
       "path": "microsoft.data.sqlite/1.1.0",
       "hashPath": "microsoft.data.sqlite.1.1.0.nupkg.sha512"
+    },
+    "microsoft.dotnet.platformabstractions/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m+IIxUg8Ev+g34H7CIcuILm3ZWWJNclsgYqc/j5n/QCKhcvRAeAn0byDI7zCqlDUwn6byXYrJxuZpuZh/5C/6g==",
+      "path": "microsoft.dotnet.platformabstractions/1.1.1",
+      "hashPath": "microsoft.dotnet.platformabstractions.1.1.1.nupkg.sha512"
     },
     "microsoft.entityframeworkcore/1.1.2": {
       "type": "package",
@@ -569,6 +620,13 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/1.1.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.1.1.0.nupkg.sha512"
     },
+    "microsoft.extensions.dependencymodel/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aeaSE99QKSh84KMnM0toUbzpSXU6KonpgAo+MV+5z4XtZk1ssrn5JfRHdUPfzb9RLU4cYS/VLzStD97YuMGlbg==",
+      "path": "microsoft.extensions.dependencymodel/1.1.1",
+      "hashPath": "microsoft.extensions.dependencymodel.1.1.1.nupkg.sha512"
+    },
     "microsoft.extensions.fileproviders.abstractions/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -603,6 +661,13 @@
       "sha512": "sha512-bjCmZ8rrmlK1MVjIZd0oevn4EkTyRY72j0OPxXVTyPycCaJUdc591kYc+gwL7dMhBaphX8DbBPn9MR/A5M5VMw==",
       "path": "microsoft.extensions.primitives/1.1.0",
       "hashPath": "microsoft.extensions.primitives.1.1.0.nupkg.sha512"
+    },
+    "newtonsoft.json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jCERNqGdnUDg+Pvfo+QNhPqiAr90/uRbz8NqnCeo/8e2fXbHQnhIjQu0ybXIn/5br4xY8V42gcoRKGwRVPtPzA==",
+      "path": "newtonsoft.json/9.0.1",
+      "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
     },
     "remotion.linq/2.1.1": {
       "type": "package",

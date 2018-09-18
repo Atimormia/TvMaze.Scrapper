@@ -7,3 +7,5 @@ D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\obj\Debu
 D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.pdb
 D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\bin\Debug\netcoreapp1.1\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\bin\Debug\netcoreapp1.1\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\bin\Debug\netcoreapp1.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Data.Contracts\bin\Debug\netcoreapp1.1\Microsoft.Extensions.DependencyInjection.Abstractions.xml

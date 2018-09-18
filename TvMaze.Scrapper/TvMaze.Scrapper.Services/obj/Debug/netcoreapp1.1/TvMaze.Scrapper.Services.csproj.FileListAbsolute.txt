@@ -1,0 +1,11 @@
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.deps.json
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.csprojResolveAssemblyReference.cache
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.AssemblyInfo.cs
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.Contracts.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Data.Contracts.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.Contracts.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\bin\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.pdb
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.dll
+D:\Learn\TvMaze.Scrapper\TvMaze.Scrapper\TvMaze.Scrapper.Services\obj\Debug\netcoreapp1.1\TvMaze.Scrapper.Services.pdb

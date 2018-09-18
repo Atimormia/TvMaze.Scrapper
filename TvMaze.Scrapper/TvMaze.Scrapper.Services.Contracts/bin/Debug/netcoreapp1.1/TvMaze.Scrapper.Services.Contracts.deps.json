@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "tvmaze.scrapper.data.contracts/1.0.0": {
+      "tvmaze.scrapper.services.contracts/1.0.0": {
         "runtime": {
-          "TvMaze.Scrapper.Data.Contracts.dll": {}
+          "TvMaze.Scrapper.Services.Contracts.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "tvmaze.scrapper.data.contracts/1.0.0": {
+    "tvmaze.scrapper.services.contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
